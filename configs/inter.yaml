@@ -1,0 +1,9 @@
+learning_rate: 0.0001
+batch_size: 32
+planning_horizon: 5
+PIXELS_PER_METER: 4
+PIXELS_AHEAD_VEHICLE: 120
+context: 5
+bev_backbone: 'resnet18'
+dataset_config : "datasets/lav.yaml"
+ckpt_dir: '/ssd_scratch/cvit/keshav/inter_ckpts'

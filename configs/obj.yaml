@@ -1,0 +1,6 @@
+learning_rate: 0.0001
+batch_size: 32
+pose_backbone: 'resnet18'
+depth_backbone: 'resnet18'
+dataset_config : "datasets/lav.yaml"
+ckpt_dir: '/ssd_scratch/cvit/keshav/depth_ckpts'

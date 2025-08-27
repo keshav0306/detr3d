@@ -1,0 +1,24 @@
+learning_rate: 0.0001
+batch_size: 8
+context: 5
+num_samples: 1000
+img_size: 64
+patch_size: 8
+max_obj: 20
+
+orig_w: 1600
+orig_h: 900
+query_dim: 256
+mha_heads: 2
+num_tr_layers: 4
+time_embedding: 256
+attention_emb_dim: 256
+
+backbone: 'resnet18'
+# backbone: 'vit'
+# backbone: 'mobilenet'
+
+
+dataset_type: nuscenes
+dataset_path: "/ssd_scratch/cvit/keshav/nuscenes" # for nuscenes
+ckpt_dir: '/ssd_scratch/cvit/keshav/detr3d_ckpts'
